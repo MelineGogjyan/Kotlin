@@ -1,4 +1,4 @@
-package com.example.myapplication.agbu.homework3
+package com.example.myapplication.agbu.homework3.homework3_1
 
 infix fun Char.upTo(number: Char) {
     for (i in this .. number) {
@@ -27,7 +27,6 @@ infix fun Long.upTo(number: Int) {
 }
 
 fun main() {
-    println(4 upTo 6)
-    println()
+    
 
 }
