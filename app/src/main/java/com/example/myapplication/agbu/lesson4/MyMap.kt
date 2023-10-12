@@ -8,5 +8,5 @@ fun <K, V> myMapOf(vararg pair: Pair <K, V>): Map<K, V> {
     return newMap
 }
 fun main() {
-    val map = myMapOf("" to 2)
+    val map1 = myMapOf("" to 2)
 }
